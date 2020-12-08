@@ -1,0 +1,65 @@
+body{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+header{
+	background-color: #000;
+}
+
+.Title-image{
+}
+
+.centered{
+	color: #FFFEFE;
+	font-size: 40px;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+
+.showcase{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 60px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.all-products{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 60px;
+	padding-left: 100px;
+	padding-right: 100px;
+	
+}
+
+.footer{
+	background-color: rgba(0,0,0,0.8);
+	padding: 40px; 
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 210px;
+	width: 100%;
+	font-size: 20px;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	color: #FFFFFF;
+	
+}
+.icons-wrapper{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.icon{
+	width: 40px;
+	margin-bottom: 10px;
+	
+	
+}
